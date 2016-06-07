@@ -12,6 +12,14 @@
 		8D45FC941D050EDB0097E2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D45FC921D050EDB0097E2A6 /* Main.storyboard */; };
 		8D45FC961D050EDB0097E2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D45FC951D050EDB0097E2A6 /* Assets.xcassets */; };
 		8D45FC991D050EDB0097E2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D45FC971D050EDB0097E2A6 /* LaunchScreen.storyboard */; };
+		8D45FCA21D050F180097E2A6 /* HHEmojiManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45FCA11D050F180097E2A6 /* HHEmojiManage.swift */; };
+		8D45FCA41D0562D10097E2A6 /* EmojisList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D45FCA31D0562D10097E2A6 /* EmojisList.plist */; };
+		8D45FCA61D0564DB0097E2A6 /* HHEmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45FCA51D0564DB0097E2A6 /* HHEmojiKeyboard.swift */; };
+		8D45FCA81D0567650097E2A6 /* HHEmojiKeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45FCA71D0567650097E2A6 /* HHEmojiKeyboardCell.swift */; };
+		8D45FCAB1D066B000097E2A6 /* aio_face_delete_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D45FCA91D066B000097E2A6 /* aio_face_delete_pressed@2x.png */; };
+		8D45FCAC1D066B000097E2A6 /* aio_face_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D45FCAA1D066B000097E2A6 /* aio_face_delete@2x.png */; };
+		8D45FCAE1D066B8F0097E2A6 /* HHImageKeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45FCAD1D066B8F0097E2A6 /* HHImageKeyboardCell.swift */; };
+		8D45FCB01D0671640097E2A6 /* HHCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45FCAF1D0671640097E2A6 /* HHCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		8D45FC951D050EDB0097E2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D45FC981D050EDB0097E2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D45FC9A1D050EDB0097E2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D45FCA11D050F180097E2A6 /* HHEmojiManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHEmojiManage.swift; sourceTree = "<group>"; };
+		8D45FCA31D0562D10097E2A6 /* EmojisList.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = EmojisList.plist; sourceTree = "<group>"; };
+		8D45FCA51D0564DB0097E2A6 /* HHEmojiKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHEmojiKeyboard.swift; sourceTree = "<group>"; };
+		8D45FCA71D0567650097E2A6 /* HHEmojiKeyboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHEmojiKeyboardCell.swift; sourceTree = "<group>"; };
+		8D45FCA91D066B000097E2A6 /* aio_face_delete_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aio_face_delete_pressed@2x.png"; sourceTree = "<group>"; };
+		8D45FCAA1D066B000097E2A6 /* aio_face_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aio_face_delete@2x.png"; sourceTree = "<group>"; };
+		8D45FCAD1D066B8F0097E2A6 /* HHImageKeyboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHImageKeyboardCell.swift; sourceTree = "<group>"; };
+		8D45FCAF1D0671640097E2A6 /* HHCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HHCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		8D45FC8D1D050EDB0097E2A6 /* HHEmojiKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				8D45FCA01D050EFF0097E2A6 /* EmojiKeyboard */,
 				8D45FC8E1D050EDB0097E2A6 /* AppDelegate.swift */,
 				8D45FC901D050EDB0097E2A6 /* ViewController.swift */,
 				8D45FC921D050EDB0097E2A6 /* Main.storyboard */,
@@ -62,6 +79,21 @@
 				8D45FC9A1D050EDB0097E2A6 /* Info.plist */,
 			);
 			path = HHEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		8D45FCA01D050EFF0097E2A6 /* EmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8D45FCA91D066B000097E2A6 /* aio_face_delete_pressed@2x.png */,
+				8D45FCAA1D066B000097E2A6 /* aio_face_delete@2x.png */,
+				8D45FCA31D0562D10097E2A6 /* EmojisList.plist */,
+				8D45FCA11D050F180097E2A6 /* HHEmojiManage.swift */,
+				8D45FCA51D0564DB0097E2A6 /* HHEmojiKeyboard.swift */,
+				8D45FCAF1D0671640097E2A6 /* HHCollectionViewFlowLayout.swift */,
+				8D45FCA71D0567650097E2A6 /* HHEmojiKeyboardCell.swift */,
+				8D45FCAD1D066B8F0097E2A6 /* HHImageKeyboardCell.swift */,
+			);
+			path = EmojiKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D45FCAB1D066B000097E2A6 /* aio_face_delete_pressed@2x.png in Resources */,
 				8D45FC991D050EDB0097E2A6 /* LaunchScreen.storyboard in Resources */,
+				8D45FCAC1D066B000097E2A6 /* aio_face_delete@2x.png in Resources */,
+				8D45FCA41D0562D10097E2A6 /* EmojisList.plist in Resources */,
 				8D45FC961D050EDB0097E2A6 /* Assets.xcassets in Resources */,
 				8D45FC941D050EDB0097E2A6 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D45FCB01D0671640097E2A6 /* HHCollectionViewFlowLayout.swift in Sources */,
 				8D45FC911D050EDB0097E2A6 /* ViewController.swift in Sources */,
+				8D45FCA61D0564DB0097E2A6 /* HHEmojiKeyboard.swift in Sources */,
+				8D45FCA21D050F180097E2A6 /* HHEmojiManage.swift in Sources */,
 				8D45FC8F1D050EDB0097E2A6 /* AppDelegate.swift in Sources */,
+				8D45FCAE1D066B8F0097E2A6 /* HHImageKeyboardCell.swift in Sources */,
+				8D45FCA81D0567650097E2A6 /* HHEmojiKeyboardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +329,7 @@
 				8D45FC9F1D050EDB0097E2A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
